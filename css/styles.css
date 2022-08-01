@@ -1,0 +1,90 @@
+/*Set the color of the background and the text of the body*/
+body {
+    background-image: linear-gradient(to right, purple, blue);
+    color: white;
+}
+
+/*Set a border around the top container*/
+.container {
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+}
+
+/*Display flex and create a space between the the 2 items - class=header & H2 */
+.addBar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*Underline the h2 and change the color & size. Also take away the margin at the top and bottom*/
+.addBar h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 3em;
+    color: lime;
+    text-decoration: underline;
+}
+
+/*Set the size of the input header div and round the right hand borders so it looks the same as class=container*/
+.header {
+    border: 2px solid lime;
+    width: 400px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*customize the input fields style*/
+.header input {
+    width: 80%;
+    outline: none;
+    padding: 9px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+/*customize the add button sizing and border color - also change cursor to pointer if hovering over*/
+.header button {
+    width: 40%;
+    padding: 9px;
+    border: 3px solid purple;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*Change the items in the shoppinglist' size and set the width margin*/
+.shoppinglist {
+    font-size: 1.5em;
+    width: 60%;
+    margin: auto;
+}
+
+/*Set the item sizing, give it a border and give space between items*/
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+/*Set the radius on the left and create a spacing at the right - change cursor to pointer when hover*/
+.checked {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+/*Set the radius at the right - change cursor to pointer when hover*/
+.close {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}

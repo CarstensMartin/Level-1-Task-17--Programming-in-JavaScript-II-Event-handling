@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <!-- Link Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- External CSS link-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<!--startList function to be executed on load of page-->
+
+<body onload="startList()">
+    <!--Add Classes to the divs-->
+    <div class="container">
+        <div class="addBar">
+            <h2>Shopping List</h2>
+            <!--Input the items that we want to add-->
+            <div class="header">
+                <input type="text" id="input" placeholder="Item">
+                <span>
+                    <button onclick="updateList()" id="addBtn">Add Item </button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!--Add class to Div -->
+    <div class="shoppinglist">
+        <!--Shopping list of items-->
+        <ul id="itemList"> </ul>
+    </div>
+
+    <!--Javascript linked to HTML file, also amended type to text/javascript-->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
