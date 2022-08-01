@@ -2,7 +2,7 @@
 
 ## Deployed
 
-https://carstensmartin.github.io/Level-1-Task-17-deployed--Programming-in-JavaScript-II-Event-handling/
+https://carstensmartin.github.io/Level-1-Task-17-Deployed--Programming-in-JavaScript-II-Event-handling/
 
 ## Task
 
